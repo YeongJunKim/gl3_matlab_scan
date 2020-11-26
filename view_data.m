@@ -3,7 +3,7 @@
 close all;
 global app
 
-make_video = 1;
+make_video = 0;
 figure(1);
 ax = axes;
 

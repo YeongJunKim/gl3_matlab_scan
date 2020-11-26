@@ -3,7 +3,7 @@ close all;
 addpath('./../matlab_utils');
 rosshutdown;
 pause(3);
-rosinit('192.168.0.29');
+rosinit('192.168.0.26');
 global app;
 
 
