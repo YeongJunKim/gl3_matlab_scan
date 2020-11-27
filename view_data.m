@@ -12,7 +12,7 @@ ax = axes;
 %     axis equal
 %     xlim([0,500]);
 %     ylim([-1.5, 1.5]);
-for i = 1:99
+for i = 1:299
     fprintf("step = %d",i);
     ranges = app.ranges(:,i)';
     angles = linspace(-pi/2, pi/2, numel(ranges));
